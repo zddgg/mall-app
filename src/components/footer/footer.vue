@@ -51,7 +51,7 @@ const tabs = [
     title: '购物车',
     img: require('../../asset/images/footer/cart.png'),
     activeImg: require('../../asset/images/footer/cart_hover.png'),
-    page: '/pages/cart/cart'
+    page: '/pages/cart/index'
   },
   {
     title: '我的',

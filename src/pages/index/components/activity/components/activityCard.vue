@@ -60,12 +60,28 @@ const img = require('../../../../../../src/asset/images/seckillProducts/product1
     font-size: .9rem;
   }
 
+  &-image {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 8px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
   .activity-card-content {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    overflow: hidden;
     margin-top: 15px;
     img {
-      width: 150px;
-      height: 150px;
-      object-fit: cover;
+      width: 100%;
+      height: 100%;
     }
 
     .activity-card-content-extra {
