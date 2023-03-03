@@ -1,7 +1,7 @@
 export default defineAppConfig({
   pages: [
-    'pages/index/index',
     'pages/cart/index',
+    'pages/index/index',
     'pages/productDetail/index'
   ],
   window: {
