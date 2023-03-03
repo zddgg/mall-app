@@ -1,5 +1,5 @@
 <template>
-  <view>
+  <view style="background-color: #f7f8fa">
     <nut-tabbar
         v-model="currentTab"
         :bottom="true"
