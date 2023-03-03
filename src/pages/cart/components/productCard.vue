@@ -29,25 +29,25 @@
       </view>
       <view style="display: flex; margin-top: 8px">
         <nut-tag color="#f93e1e" style="margin-right: 5px">
-          <view style="font-size: 12px">
+          <view style="font-size: 10px">
             满减
           </view>
         </nut-tag>
         <nut-tag color="#f93e1e" style="margin-right: 5px">
-          <view style="font-size: 12px">
+          <view style="font-size: 10px">
             满减
           </view>
         </nut-tag>
       </view>
       <view style="margin-top: 8px; padding: 5px 10px; background: linear-gradient(90deg, #fdd7dc, #ffffff 100%); border-radius: 15px">
-        <view style="font-size: 12px; color: red">
+        <view style="font-size: 10px; color: red">
           秒杀 结束时间 03月06日 06:00
         </view>
       </view>
       <view style="display: flex; margin-top: 8px; justify-content: space-between; height: 20px">
         <nut-price :price="123.23" size="normal" :need-symbol="true"/>
         <view style="display: flex;">
-          <view style="font-size: 12px; color: red; height: 20px; line-height: 20px">限购2件</view>
+          <view style="font-size: 10px; color: red; height: 20px; line-height: 20px">限购2件</view>
           <nut-input-number v-model="value" readonly button-size="20"/>
         </view>
       </view>
